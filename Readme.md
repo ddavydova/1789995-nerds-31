@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Дарья Давыдова](https://up.htmlacademy.ru/htmlcss/31/user/1789995).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгения Зорина](https://htmlacademy.ru/profile/sanguis).
 
 ---
 
