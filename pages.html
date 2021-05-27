@@ -9,7 +9,7 @@
     <header>
         <nav>
             <a>
-                <img src="https://via.placeholder.com/159.87x65.02" alt="Логотип Nerd's">
+                <img src="https://via.placeholder.com/159x65" alt="Логотип Nerd's">
             </a>
             <ul>
                 <li><a href="blank.html">Студия</a></li>
@@ -40,12 +40,23 @@
             <li>
                 <label for="name-sort">По названию</label>
             </li>
+            <!-- ромбики -->
         </ul>
 
         <section>
             <h2>Фильтр товаров</h2>
+
             <form method="get" action="https://echo.htmlacademy.ru">
                 <fieldset>
+                    <div class="slidecontainer">
+                        <input type="range" min="0" max="15000" value="11000" class="slider" id="product-range">
+                    </div>
+                    <p>От</p>  <input id="min-value" type="search" name="min-value" placeholder="0">
+                    <p>До</p> <input id="max-value" type="search" name="max-value" placeholder="15000">
+                </fieldset>
+              
+                <fieldset>
+            
                     <legend>Сетка:</legend>
                     <ul>
                         <li>
@@ -92,13 +103,13 @@
         </section>
 
         <section>
-            <h2>Список товаров</h2>
+            <h2>Список шаблонов</h2>
             <ul>
                 <li>
                     <a href="product.html">
-                        <h3>Набор для путешествий «Baxter of California»</h3>
+                        <h3>Sedona</h3>
                         <p>
-                            <img src="img/product-1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
+                            <img src="https://via.placeholder.com/359x578" alt="Шаблон сайта «Sedona» ">
                         </p>
                     </a>
                     <p>
@@ -107,9 +118,9 @@
                 </li>
                 <li>
                     <a href="product.html">
-                        <h3>Увлажняющий кондиционер «Baxter of California»</h3>
+                        <h3>Pink App</h3>
                         <p>
-                            <img src="img/product-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
+                            <img src="https://via.placeholder.com/359x578" alt="Шаблон продуктового лендинга приложения «Pink App»">
                         </p>
                     </a>
                     <p>
@@ -120,49 +131,52 @@
                     <a href="product.html">
                         <h3>Гель для волос «Suavecito»</h3>
                         <p>
-                            <img src="img/product-3.jpg" width="220" height="165" alt="Гель для волос «Suavecito»">
+                            <img src="https://via.placeholder.com/359x578" alt="Шаблон сайта «Borodinski»">
                         </p>
                     </a>
-                  
+
                 </li>
                 <li>
                     <a href="product.html">
                         <h3>Глина для укладки волос «American crew»</h3>
                         <p>
-                            <img src="img/product-4.jpg" width="220" height="165" alt="Глина для укладки волос «American crew»">
+                            <img src="https://via.placeholder.com/359x578" alt="Шаблон сайта «Mishka">
                         </p>
                     </a>
-    
+
                 </li>
                 <li>
                     <a href="product.html">
                         <h3>Гель для волос «American crew»</h3>
                         <p>
-                            <img src="img/product-5.jpg" width="220" height="165" alt="Гель для волос «American crew»">
+                            <img src="https://via.placeholder.com/359x578" alt="Шаблон сайта «A+»">
                         </p>
                     </a>
                 </li>
                 <li>
                     <a href="product.html">
-                        <h3>Набор для бритья «Baxter of California»</h3>
+                        <h3>Кваст</h3>
                         <p>
-                            <img src="img/product-6.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»">
+                            <img src="https://via.placeholder.com/359x578" alt="Шаблон промо-сайта «Кваст»">
                         </p>
                     </a>
+                    <p>
+                        <button type="button">9900 ₽</button>
+                    </p>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="#">1</a>
+                    <a>1</a>
                 </li>
                 <li>
-                    <a>2</a>
+                    <a href="#">2</a>
                 </li>
                 <li>
                     <a href="#">3</a>
                 </li>
                 <li>
-                    <a href="#">4</a>
+                    <a href="#">Следующая</a>
                 </li>
             </ul>
         </section>
@@ -170,16 +184,19 @@
 
     <footer>
         <section>
-            <h2>Как нас найти</h2>
+            <h2>Контактная информация</h2>
             <p>
-                Барбершоп «Бородинский»<br>
-                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-                <a href="blank.html">Как нас найти?</a><br>
-                Телефон: <a href="tel:+78126660266">+7 (812) 666-02-66</a>
+                наб. Реки Карповки,<br>
+                5 лит П, Санкт-Петербург<br>
+                Телефон: <a href="tel:+78005558628">+7 800 555-86-28</a>
             </p>
+            <a href="blank.html">Напишите нам</a>
+
+            <!-- Здесь будет карта -->
+
         </section>
         <section>
-            <h2>Давайте дружить!</h2>
+            <h2>Социальные сети</h2>
             <ul>
                 <li>
                     <a href="#">Вконтакте</a>
@@ -191,36 +208,10 @@
                     <a href="#">Инстаграм</a>
                 </li>
             </ul>
+            <h2>Акция</h2>
+            <p>Давайте дружить, это выгодно!</p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
         </section>
-        <p>
-            Разработано:
-            <a href="https://htmlacademy.ru">HTML Academy</a>
-        </p>
     </footer>
-
-    <section>
-        <h2>Личный кабинет</h2>
-        <p>Введите пожалуйста свой логин и пароль</p>
-        <form action="https://echo.htmlacademy.ru" method="post">
-            <p>
-                <label for="login-login">Логин</label>
-                <input id="login-login" type="email" name="login" placeholder="email@example.com">
-            </p>
-            <p>
-                <label for="login-password">Пароль</label>
-                <input id="login-password" type="password" name="password" placeholder="••••••••">
-            </p>
-            <p>
-                <label>
-                    <input type="checkbox" name="remember">
-                    Запомните меня
-                </label>
-                <a href="#">Я забыл пароль!</a>
-            </p>
-            <button type="submit">Войти</button>
-        </form>
-        <button type="button">Закрыть</button>
-    </section>
-
 </body>
 </html>
