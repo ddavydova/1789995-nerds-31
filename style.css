@@ -1,0 +1,200 @@
+:root {
+  --basic-grey: #EEEEEE;
+  --basic-black: #000000;
+  --basic-red: #FB565A;
+  --basic-green: #00CA74;
+  --basic-yelow: #EFC849;
+  --basic-white: #ffffff;
+  --basic-dark-grey: #4D4D4D;
+  --special-red: #E74246;
+  --special-red-click: #D7373B;
+  --special-green: #00BC6C;
+  --special-green-click: #00AA62;
+  --special-yellow: #EAB534;
+  --special-yellow-click: #E5A722;
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: var(--basic-grey);
+}
+/* Main navigation */
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: transparent;
+}
+
+/* User navigation */
+
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+  .site-navigation a:hover {
+    color: var(--basic-red);
+  }
+   .site-navigation a:focus {
+    color: var(--basic-black);
+  }
+
+
+/* slider */
+
+.slider {
+  background-color: var(--basic-grey);
+}
+.slider-list {
+  list-style: none;
+}
+
+.slider-item {
+  text-align: left;
+}
+
+  .feature-item h3 {
+    font-size: 55px;
+    line-height: 55px;
+  }
+
+
+/* index-columns */
+
+.index-columns {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.inner-page {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+.filter legend {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter ul {
+  list-style: none;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+  color: var(--special);
+}
+
+/* Button */
+.button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-red);
+  border: none;
+}
+
+  .button:hover,
+  .button:focus,
+  .button:active {
+    background-color: var(--special);
+  }
+
+  .button.disabled,
+  .button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-red);
+  }
+
+/* Contacts */
+
+.contacts-phone {
+  color: inherit;
+}
+
+
+/* Main footer */
+
+.main-footer {
+  color: var(--basic-black);
+  background-color: var(--basic-extra-dark);
+  background-image: url("img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: var(--basic-white);
+  text-decoration: underline;
+}
+
+  .footer-contacts a:hover,
+  .footer-contacts a:focus {
+    text-decoration: none;
+  }
+
+.footer-social {
+  text-align: center;
+}
+
+  .footer-social ul {
+    list-style: none;
+  }
+
+  .footer-social h2 {
+    font-size: 14px;
+  }
+
+/* Social button */
+
+.social-button {
+  color: var(--basic-black);
+}
+
+  .social-button:hover,
+  .social-button:focus {
+    background-color: var(--basic-white);
+  }
+
