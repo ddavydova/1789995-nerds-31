@@ -1,21 +1,18 @@
 @font-face {
   font-family: "Roboto";
   font-weight: 400;
-  font-style: normal;
   src: local("Roboto"), url("fonts/roboto.woff2") format("woff2"), url("fonts/roboto.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
   font-weight: 500;
-  font-style: normal;
   src: local("Roboto Medium"), url("fonts/robotomedium.woff2") format("woff2"), url("fonts/robotomedium.woff") format("woff");
 }
 
 @font-face {
   font-family: "Roboto";
   font-weight: 700;
-  font-style: normal;
   src: local("Roboto Bold"), url("fonts/robotobold.woff2") format("woff2"), url("fonts/robotobold.woff") format("woff");
 }
 
@@ -43,7 +40,6 @@ body {
   padding: 0;
   font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
-  font-style: normal;
   color: var(--basic-black);
   background-color: var(--basic-white);
 }
@@ -69,7 +65,6 @@ header {
   font-size: 16px;
   line-height: 30px;
   text-transform: uppercase;
-  color: var(--basic-black);
 }
 
 .site-navigation {
@@ -91,7 +86,22 @@ header {
   opacity: 0.3;
 }
 
+.basket-link {
+  list-style: none;
+}
 
+.basket-link {
+  color: var(--basic-black);
+}
+
+.basket-link:hover {
+  color: var(--basic-red);
+}
+
+.basket-link:focus {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
 
 /* slider */
 
@@ -126,13 +136,10 @@ header {
 
 /* index-columns */
 
-.index-columns {
-  color: var(--basic-black);
-}
-
 .index-columns h2 {
-  font-size: 30px;
-  line-height: 42px;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
 }
 
 .index-columns h3 {
@@ -147,22 +154,17 @@ header {
   font-size: 26px;
   line-height: 40px;
 }
-.advantages h4 {
-  font-size: 45px;
-  line-height: 64px;
-}
-
-.index-columns h5 {
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 45px;
-}
 
 .advantages p {
   font-size: 16px;
   line-height: 18px;
 }
 
+.number {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 64px;
+}
 
 /* clients list */
 
@@ -171,10 +173,6 @@ header {
 }
 
 /* catalog */
-
-.inner-page {
-  color: var(--basic-black);
-}
 
 .filter legend {
   font-size: 18px;
@@ -196,12 +194,10 @@ header {
 /* Button */
 .button {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 18px;
-  font: inherit;
   color: var(--basic-white);
   text-transform: uppercase;
   background-color: var(--basic-red);
+  border: none;
 }
 
 .button:hover {
@@ -213,77 +209,65 @@ header {
     opacity: 0.3;
 }
 
-.button-1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
-    font: inherit;
-    color: var(--basic-white);
-    text-transform: uppercase;
-    background-color: var(--basic-green);
+.button_green {
+  background-color: var(--basic-green);
 }
 
-.button-2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
-    font: inherit;
-    color: var(--basic-white);
-    text-transform: uppercase;
-    background-color: var(--basic-yellow);
+.button_yellow {
+  background-color: var(--basic-yellow);
 }
 
-.button-1:hover {
+.button_green:hover {
   background-color: var(--special-green);
 }
 
-.button-2:hover {
+.button_yellow:hover {
   background-color: var(--special-yellow);
 }
 
 /* Main footer */
 
 .main-footer h3 {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /* Phone */
 
 .footer-phone {
-    color: var(--basic-black);
+  color: var(--basic-black);
 }
 
 .footer-social ul {
-    list-style: none;
+  list-style: none;
 }
 
 .footer-social h2 {
-    font-size: 30px;
-    line-height: 42px;
+  font-size: 30px;
+  line-height: 42px;
 }   
 
 .discount h3 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 36px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 /* Social button */
 
 .social-button {
-    color: var(--basic-white);
-    background-color: var(--basic-grey);
+  color: var(--basic-white);
+  background-color: var(--basic-grey);
 }
 
 .social-button:hover,
 .social-button:focus {
-    background-color: var(--special-red);
+  background-color: var(--special-red);
 }
 
 .discount p {
-    font-size: 16px;
-    line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
