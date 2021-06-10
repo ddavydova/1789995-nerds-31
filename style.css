@@ -18,6 +18,7 @@
 
 :root {
   --basic-grey: #EEEEEE;
+  --basic-light-grey: #666666;
   --basic-black: #000000;
   --basic-red: #FB565A;
   --basic-green: #00CA74;
@@ -197,11 +198,6 @@ header {
   line-height: 20px;
 }
 
-.filter-input-checkbox:hover + label,
-.filter-input-checkbox:focus + label {
-  color: var(--special);
-}
-
 .catalog-list {
   list-style: none;
 
@@ -213,11 +209,30 @@ header {
   text-transform: uppercase;
 }
 
+.catalog-item-title a {
+    color: var(--basic-black);
+}
+
 .catalog-list p {
+  color: var(--basic-light-grey);
   line-height: 18px;
 }
-/* Button */
 
+.pagination-list {
+  list-style: none;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.pagination-list a {
+  color: var(--basic-black);
+}
+
+.pagination-item_next{
+  text-transform: uppercase;
+}
+
+/* Button */
 .button {
   font-weight: 500;
   color: var(--basic-white);
