@@ -47,6 +47,12 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+
+a:hover{
+  color: var(--basic-red);
 }
 
 img {
@@ -58,6 +64,9 @@ header {
   background-color: var(--basic-grey);
 }
 
+svg {
+  fill: currentColor;
+}
 
 /* Main navigation */
 
@@ -71,27 +80,9 @@ header {
   list-style: none;
 }
 
-/* User navigation */
-
-
-.site-navigation a {
-  color: var(--basic-black);
-}
-
-.site-navigation a:hover {
-  color: var(--basic-red);
-}
 .site-navigation a:focus {
   color: var(--basic-black);
   opacity: 0.3;
-}
-
-.basket-link {
-  color: var(--basic-black);
-}
-
-.basket-link:hover {
-  color: var(--basic-red);
 }
 
 .basket-link:focus {
@@ -209,10 +200,6 @@ header {
   text-transform: uppercase;
 }
 
-.catalog-item-title a {
-    color: var(--basic-black);
-}
-
 .catalog-list p {
   color: var(--basic-light-grey);
   line-height: 18px;
@@ -222,10 +209,6 @@ header {
   list-style: none;
   font-weight: 500;
   line-height: 18px;
-}
-
-.pagination-list a {
-  color: var(--basic-black);
 }
 
 .pagination-item_next{
@@ -279,12 +262,6 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
-}
-
-/* Phone */
-
-.footer-phone {
-  color: var(--basic-black);
 }
 
 .footer-social ul {
