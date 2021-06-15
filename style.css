@@ -108,6 +108,10 @@ svg {
   line-height: 55px;
 }
 
+.slider-item span:active {
+  opacity: 0.3;
+}
+
 /* products */
 .products-list {
   list-style: none;
@@ -120,6 +124,9 @@ svg {
   text-transform: uppercase;
 }
 
+.product-item span:active {
+  opacity: 0.3;
+}
 /* index-columns */
 
 .index-columns h2 {
@@ -183,14 +190,16 @@ svg {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+}
+.sort-item a {
   opacity: 0.3;
 }
 
-.sort-item:hover {
+.sort-item a:hover {
   opacity: 0.6;
 }
 
-.sort-item:active {
+.sort-item a:active {
   opacity: 1;
 }
 
@@ -255,7 +264,7 @@ svg {
    background-color:var(--basic-grey);
 }
 
-.pagination-item current {
+.pagination-item current a{
    background-color:var(--basic-white);
 }
 
@@ -267,6 +276,9 @@ svg {
   background-color: var(--special-filter-grey-click);
 }
 
+.pagination-item span:active {
+   opacity: 0.3;
+}
 
 
 /* Button */
@@ -323,8 +335,13 @@ svg {
   background-color: var(--special-filter-grey);
 }
 
-.filter-button:hover {
+.filter-button:active {
   background-color: var(--special-filter-grey-click);
+}
+
+.filter-button span:active {
+  color: var(--basic-black);
+  opacity:0.3;
 }
 
 /* Main footer */
@@ -342,7 +359,11 @@ svg {
 .footer-social h2 {
   font-size: 30px;
   line-height: 42px;
-}   
+}
+
+.footer-contacts span:active {
+  opacity: 0.3;
+}
 
 .discount h3 {
   font-size: 36px;
