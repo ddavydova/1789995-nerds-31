@@ -102,10 +102,6 @@ svg {
   list-style: none;
 }
 
-.slider-item {
-  text-align: left;
-}
-
 .slider-item h3 {
   font-weight: 500;
   font-size: 55px;
@@ -349,7 +345,6 @@ svg {
 }   
 
 .discount h3 {
-  font-weight: 700;
   font-size: 36px;
   line-height: 36px;
 }
