@@ -21,18 +21,23 @@
   --basic-light-grey: #666666;
   --basic-black: #000000;
   --basic-red: #FB565A;
+  --basic-red-click: #E37376;
   --basic-green: #00CA74;
   --basic-yellow: #EFC849;
   --basic-white: #ffffff;
   --basic-dark-grey: #4D4D4D;
+  --basic-grey-click: #B3B3B3;
   --special-red: #E74246;
   --special-red-click: #D7373B;
   --special-green: #00BC6C;
+  --basic-green-click: #4DC391;
   --special-green-click: #00AA62;
   --special-yellow: #EAB534;
   --special-yellow-click: #E5A722;
+  --basic-yellow-click: #EDC164;
   --special-filter-grey: #DFDFDF;
   --special-filter-grey-click: #D5D5D5;
+  --special-grey-pagination: #959595;
 }
 
 body {
@@ -62,6 +67,7 @@ svg {
   fill: currentColor;
 }
 
+
 /* Main navigation */
 .main-header {
   background-color: var(--basic-grey);
@@ -80,14 +86,12 @@ svg {
   color: var(--basic-red);
 }
 
-.site-navigation li:active {
-  color: var(--basic-black);
-  opacity: 0.3;
+.site-navigation a:active {
+  color: var(--basic-grey-click);
 }
 
 .basket-link:active {
-  color: var(--basic-black);
-  opacity: 0.3;
+  color: var(--basic-grey-click);
 }
 
 .basket-link:hover {
@@ -108,10 +112,6 @@ svg {
   line-height: 55px;
 }
 
-.slider-item span:active {
-  opacity: 0.3;
-}
-
 /* products */
 .products-list {
   list-style: none;
@@ -124,9 +124,6 @@ svg {
   text-transform: uppercase;
 }
 
-.product-item span:active {
-  opacity: 0.3;
-}
 /* index-columns */
 
 .index-columns h2 {
@@ -192,27 +189,27 @@ svg {
   text-transform: uppercase;
 }
 .sort-item a {
-  opacity: 0.3;
+  color: var(--basic-grey-click);
 }
 
 .sort-item a:hover {
-  opacity: 0.6;
+  color: var(--basic-light-grey);
 }
 
 .sort-item a:active {
-  opacity: 1;
+  color: var(--basic-black);
 }
 
 .sort svg {
-  opacity: 0.3;
+  color: var(--basic-grey-click);
 }
 
 .sort svg:hover {
-  opacity: 0.6;
+ color: var(--basic-light-grey);
 }
 
 .sort svg:active {
-  opacity: 1;
+  color: var(--basic-black);
 }
 
 .slide-range label{
@@ -250,8 +247,7 @@ svg {
 }
 
 .catalog-item-title a:active {
-   color: var(--basic-black);
-   opacity: 0.3;
+   color: var(--basic-grey-click);
 }
 
 .pagination-list {
@@ -277,7 +273,7 @@ svg {
 }
 
 .pagination-item span:active {
-   opacity: 0.3;
+  color: var(--special-grey-pagination);
 }
 
 
@@ -295,8 +291,8 @@ svg {
 }
 
 .button:active {
+  color: var(--basic-red-click);
   background-color: var(--special-red-click);
-
 }
 
 .button_green {
@@ -308,6 +304,7 @@ svg {
 }
 
 .button_green:active {
+  color: var(--basic-green-click);
   background-color: var(--special-green-click);
 }
 
@@ -320,6 +317,7 @@ svg {
 }
 
 .button_yellow:active {
+  color: var(--basic-yellow-click);
   background-color: var(--special-yellow-click);
 }
 
@@ -336,12 +334,8 @@ svg {
 }
 
 .filter-button:active {
+  color: var(--special-grey-pagination);
   background-color: var(--special-filter-grey-click);
-}
-
-.filter-button span:active {
-  color: var(--basic-black);
-  opacity:0.3;
 }
 
 /* Main footer */
@@ -359,10 +353,6 @@ svg {
 .footer-social h2 {
   font-size: 30px;
   line-height: 42px;
-}
-
-.footer-contacts span:active {
-  opacity: 0.3;
 }
 
 .discount h3 {
