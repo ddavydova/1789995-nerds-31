@@ -90,11 +90,11 @@ svg {
   color: var(--basic-grey-click);
 }
 
-.basket-link:active {
+.basket-link a:active {
   color: var(--basic-grey-click);
 }
 
-.basket-link:hover {
+.basket-link a:hover {
   color: var(--basic-red);
 }
 
@@ -269,13 +269,9 @@ svg {
 }
 
 .pagination-item a:active {
+  color: var(--special-grey-pagination);
   background-color: var(--special-filter-grey-click);
 }
-
-.pagination-item span:active {
-  color: var(--special-grey-pagination);
-}
-
 
 /* Button */
 .button {
