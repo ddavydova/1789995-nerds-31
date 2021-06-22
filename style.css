@@ -141,9 +141,7 @@ svg {
   margin: 0 auto;
 }
 
-/* ?? ???? ??? ????????? ???????? ??????
-
-      display: grid;
+/*   display: grid;
       grid-template-columns: min-content 760px;
 
 .slider-image {
@@ -247,7 +245,6 @@ svg {
 
 /* clients list */
 
-/* ???????? ?? ??????? */
 .clients-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -272,7 +269,7 @@ svg {
   text-transform: uppercase;
 }
 
-/* filter sort + checkbox lineheight 20  */
+/* filter sort + checkbox lineheight 20 */
 
 .sort-list {
   list-style: none;
