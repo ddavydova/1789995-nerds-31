@@ -94,6 +94,7 @@ svg {
   font-weight: 500;
   line-height: 30px;
   padding-top: 50px;
+  gap: 50px;
 }
 
 .site-navigation {
@@ -102,14 +103,13 @@ svg {
   padding: 0;
   width: 450px;
   margin-left: 202px;
+  gap: 50px;
 }
 
-.main-header-logo {
-  width: 160px;
-  height: 65px;
-  margin-right: auto;
+.basket-link {
+  justify-self: right;
+  gap: 50px;
 }
-
 
 .site-navigation a:hover {
   color: var(--basic-red);
@@ -132,6 +132,7 @@ svg {
   background-color: var(--basic-grey);
   margin-bottom: 80px;
   padding: 0 10px;
+
 }
 
 .slider-list {
@@ -139,6 +140,15 @@ svg {
   padding: 0;
   min-height: 431px;
 }
+
+.slider-item h3{
+  width: 538px;
+}
+
+.slider-item p{
+  width: 400px;
+}
+
 
 /*   display: grid;
       grid-template-columns: min-content 760px;
@@ -198,15 +208,9 @@ svg {
   margin: 0;
 }
 
-.information {
-  width: 651px;
-  height: 413px;
-}
-
 .information-list {
   margin: 0;
   padding: 0;
-  height: 100px;
 }
 
 .advantages-list span {
@@ -227,7 +231,6 @@ svg {
 
 .advantages-list {
   list-style: none;
-  min-height: 413px;
   margin: 0;
   padding: 0;
 }
@@ -260,7 +263,6 @@ svg {
 
 .sort-list {
   list-style: none;
-
 }
 
 .sort-item {
@@ -421,6 +423,12 @@ svg {
   font-size: 18px;
   line-height: 30px;
 }
+.contacts {
+  background-color: var(--basic-white);
+  width: 319px;
+  height: 308px;
+  padding: 50px;
+}
 
 .footer-social ul {
   list-style: none;
@@ -438,7 +446,8 @@ svg {
 }
 
 .footer-contacts {
-  min-height: 416px;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .footer-contacts p {
@@ -449,7 +458,7 @@ svg {
 .footer-columns {
   display: grid;
   grid-template-columns: 300px 600px;
-  gap: 139px;
+  gap: 100px;
   min-height: 81px;
 }
 
@@ -457,6 +466,7 @@ svg {
   margin: 0;
   padding: 0;
 }
+
 
 /* Social button */
 .social-button {
